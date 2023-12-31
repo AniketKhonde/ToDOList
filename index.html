@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editable Checkbox and Text Area</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="screenshotTarget" class="container">
+        <div class="header">
+            <h1>To do list</h1>
+            <p id="para"></p>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Task</th>
+                    <th>Discription</th>
+                    <th>Status</th> <!-- Add a new column for the checkboxes -->
+                </tr>
+            </thead>
+            <tbody id="table-body">
+                <!-- Existing rows and new rows will be added here -->
+            </tbody>
+        </table>
+
+        <button id="add-button" class="buttons">Add Row</button>
+        <button id="remove-button" class="buttons">New Routine</button>
+        <button id="save-button" class="buttons">Save</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.min.js"></script>
+    <script src="myscript1.js"></script>
+</body>
+</html>

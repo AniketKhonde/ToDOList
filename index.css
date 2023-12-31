@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(240, 240, 179);
+}
+
+.container {
+    height: 100%;
+    width: 500px;
+    margin: 50px 20px 20px 20px;
+    padding: 20px;
+    background-color: antiquewhite;
+    border: 2px solid blue;
+    margin-left: 30%;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(33, 2, 2)
+}
+
+.buttons {
+    border-radius: 5px;
+    background-color: rgb(98, 244, 152);
+}
